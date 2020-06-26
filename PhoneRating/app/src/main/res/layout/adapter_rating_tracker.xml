@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBg4"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/phone_detail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="@null"
+        android:layout_margin="8dp"
+        android:textColor="@color/colortext_dark"
+        android:textSize="18sp"
+        tools:text="Samsung Galaxy Note 10"/>
+
+    <TextView
+        android:id="@+id/star_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortext_dark"
+        android:layout_marginRight="4dp"
+        android:textSize="18sp"
+        tools:text="5"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/star"
+        android:background="@color/colorBg2"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:src="@mipmap/cross"/>
+
+</LinearLayout>

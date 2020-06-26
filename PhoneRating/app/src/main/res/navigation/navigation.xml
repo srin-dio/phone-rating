@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/ratingTrackerFragment">
+
+    <fragment
+        android:id="@+id/ratingTrackerFragment"
+        android:name="com.example.bendoel.samsunguserexperience.ratingtracker.RatingTrackerFragment"
+        android:label="RatingTrackerFragment"
+        tools:layout="@layout/fragment_rating_tracker">
+        <action
+            android:id="@+id/action_ratingTrackerFragment_to_ratingFragment"
+            app:destination="@id/ratingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ratingFragment"
+        android:name="com.example.bendoel.samsunguserexperience.rating.RatingFragment"
+        android:label="RatingFragment"
+        tools:layout="@layout/fragment_rating"/>
+</navigation>
