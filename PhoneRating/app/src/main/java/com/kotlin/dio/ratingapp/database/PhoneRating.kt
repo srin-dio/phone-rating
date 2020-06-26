@@ -1,2 +1,2 @@
-package com.example.bendoel.samsunguserexperience.database
+package com.kotlin.dio.ratingapp.database
 
